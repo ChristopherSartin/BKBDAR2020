@@ -9,10 +9,9 @@
         <a-asset-item id="teapot" src="Assets/teapot.obj"></a-asset-item>
       </a-asset>
 
-      <a-marker type='pattern' patternUrl='/C:/Users/chris/Documents/WebDev/BKBDAR2020/public/Assets/AR_Concert/MarkersAndImages/pattern-bkbd.patt'>
+      <a-marker-camera type='pattern' url='https://raw.githubusercontent.com/ChristopherSartin/BKBDAR2020/master/public/Assets/AR_Concert/MarkersAndImages/pattern-bkbd.patt'>
           <a-entity scale='0.2 0.2 0.2' obj-model="obj:#teapot"></a-entity>
-      </a-marker>
-      <a-entity camera></a-entity>
+      </a-marker-camera>
     </a-scene>
   </body>
 </html>
